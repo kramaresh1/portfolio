@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
       </h2>
 
       <div className="flex space-x-6 text-3xl">
-        <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/kramaresh1" target="_blank" rel="noopener noreferrer">
           <FaGithub className="hover:text-yellow-400 transition-colors" />
         </a>
         <a href="https://linkedin.com/in/amaresh-kumar-0b9211257" target="_blank" rel="noopener noreferrer">

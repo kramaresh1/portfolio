@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+/* Light Mode */
+.light .bg-white {
+  background-color: #f9fafb; /* Softer white */
+}
+
+.text-gray-900 {
+  color: #111827; /* Darker gray for better contrast */
+}
+
+/* Dark Mode */
+.dark .bg-white {
+  background-color: #cfd550; /* Darker blue-gray for a modern look */
+}
+
+.dark .text-gray-900 {
+  color: #e2e8f0; /* Softer white for better readability */
+}
+
+/* Accent Colors */
+a {
+  color: #2563eb; /* Blue for links */
+}
+
+a:hover {
+  color: #1d4ed8; /* Darker blue on hover */
+}
+
+.dark a {
+  color: #60a5fa; /* Lighter blue for dark mode */
+}
+
+.dark a:hover {
+  color: #3b82f6; /* Brighter blue on hover */
+}

@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaCode, FaMobileAlt, FaCloud, FaDatabase } from 'react-icons/fa';
 
 const services = [

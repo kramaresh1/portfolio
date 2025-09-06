@@ -1,3 +1,5 @@
+import React from "react";
+
 const Projects: React.FC = () => {
   return (
     <section id="projects" className="p-12 bg-gray-100 text-gray-800">
@@ -6,13 +8,23 @@ const Projects: React.FC = () => {
         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
           <h4 className="text-2xl font-semibold mb-2">Supply Chain Management</h4>
           <p>
-            Developed a secure, scalable microservice-based application with JWT, Kafka, and real-time mobile sync using React Native.
+          Developed and maintained Spring Boot microservices for lead management, expense
+tracking, and onboarding workflows.
+Implemented secure REST APIs with JWT authentication and RBAC.
+Used Apache Kafka for real-time notifications, boosting user engagement.
+Built Angular dashboards for admins and React Native apps for field reps.
           </p>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
           <h4 className="text-2xl font-semibold mb-2">Document Management System</h4>
           <p>
-            Built a system to securely store and retrieve documents with Angular frontend, Spring Boot backend, and optimized queries.
+          Engineered a secure document storage and retrieval platform using
+microservices.
+Integrated authentication, authorization, and metadata-driven document
+processing.
+Optimized database queries for high performance and low latency.
+Designed a user-friendly, responsive UI for seamless access.
+
           </p>
         </div>
       </div> 

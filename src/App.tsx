@@ -11,6 +11,7 @@ import Skills from './components/Skills.tsx';
     import AOS from 'aos';
     import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import React from 'react';
 
 const App: React.FC = () => {
 

@@ -18,10 +18,11 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu Toggle */}
         <div className="md:hidden flex items-center gap-4">
-          <DarkModeToggle />
+
           <button onClick={() => setMenuOpen(!menuOpen)} className="text-white text-2xl">
             <FaBars />
           </button>
+          <DarkModeToggle />
         </div>
 
         {/* Desktop Nav */}
@@ -34,19 +35,25 @@ const Header: React.FC = () => {
           <a href="#contact" className="hover:text-yellow-400">Contact</a>
           <DarkModeToggle />
         </nav>
+
       </div>
 
       {/* Mobile Nav */}
       {menuOpen && (
+        <>
         <nav className="flex flex-col mt-4 space-y-2 md:hidden">
-          <a href="#about" className="hover:text-yellow-400">About1</a>
+          <a href="#about" className="hover:text-yellow-400">About</a>
           <a href="#services" className="hover:text-yellow-400">Services</a>
           <a href="#skills" className="hover:text-yellow-400">Skills</a>
           <a href="#projects" className="hover:text-yellow-400">Projects</a>
           <a href="#experience" className="hover:text-yellow-400">Experience</a>
           <a href="#contact" className="hover:text-yellow-400">Contact</a>
+         
         </nav>
+        
+         </>
       )}
+     
     </motion.header>
   );
 };

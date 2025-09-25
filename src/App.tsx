@@ -13,6 +13,7 @@ import Skills from './components/Skills.tsx';
 import { useEffect } from 'react';
 import React from 'react';
 import BirthDay from './components/smritiBirth/BirthDay.tsx';
+import ProjectRequirement from './components/projectGetting/ProjectRequirement.tsx';
 
 const App: React.FC = () => {
 
@@ -31,7 +32,9 @@ const App: React.FC = () => {
       <Projects />
       <Experience />
       <Contact /> */}
-      <BirthDay />
+      {/* <BirthDay /> */}
+      <ProjectRequirement/>
+
     </div>
   );
 };

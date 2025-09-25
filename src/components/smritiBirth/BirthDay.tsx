@@ -76,6 +76,16 @@ const BirthDay: React.FC = () => {
           </div>
         </div>
       )}
+       <div className="mt-8 flex flex-col items-center">
+          <h2 className="text-2xl font-bold text-pink-600 dark:text-yellow-300 mb-4">A Special Birthday Video</h2>
+          <video
+            controls
+            className="rounded-2xl shadow-lg border-4 border-pink-300 w-full max-w-xl"
+            src="/v1.mp4" // Place your video file in the public folder as birthday.mp4
+          >
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <div className="mb-8">
           <p className="text-lg md:text-xl text-purple-700 dark:text-pink-200 font-semibold mb-4">
             You light up every room with your positivity and grace. May this year bring you new adventures, endless happiness, and all the success you deserve!

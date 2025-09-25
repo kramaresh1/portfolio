@@ -12,6 +12,7 @@ import Skills from './components/Skills.tsx';
     import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import React from 'react';
+import BirthDay from './components/smritiBirth/BirthDay.tsx';
 
 const App: React.FC = () => {
 
@@ -22,14 +23,15 @@ const App: React.FC = () => {
   return (
    <div className="font-sans bg-white text-gray-900 dark:bg-gray-900 dark:text-white transition-colors duration-500">
 
-      <Header />
+      {/* <Header />
       <Hero />
       <About />
        <Services />
       <Skills />
       <Projects />
       <Experience />
-      <Contact />
+      <Contact /> */}
+      <BirthDay />
     </div>
   );
 };
